@@ -1,0 +1,165 @@
+$date
+	Tue Nov 12 11:23:07 2024
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	100ps
+$end
+
+$scope module SequenceDetector_tb $end
+
+$scope module top $end
+$var parameter 2 ! RO $end
+$var parameter 2 " RZ $end
+$var parameter 2 # Z2O $end
+$var parameter 2 $ Z2O2Z $end
+$var wire 1 % clk $end
+$var wire 1 & reset_n $end
+$var wire 1 ' d_in $end
+$var reg 1 ( d_out $end
+$var reg 2 ) n_state [1:0] $end
+$var reg 2 * c_state [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0(
+b1 )
+b0 *
+b0 !
+b1 "
+b10 #
+b11 $
+0'
+0&
+0%
+$end
+#50
+1%
+b0 )
+b1 *
+b1 )
+#100
+1&
+0%
+#150
+1%
+#200
+1'
+0%
+b10 )
+#250
+1%
+b10 *
+b0 )
+#300
+0'
+0%
+b11 )
+#350
+1%
+b11 *
+b1 )
+#400
+1'
+0%
+b10 )
+1(
+#450
+1%
+b10 *
+b0 )
+0(
+#500
+0'
+0%
+b11 )
+#550
+1%
+b11 *
+b1 )
+#600
+1'
+0%
+b10 )
+1(
+#650
+1%
+b10 *
+b0 )
+0(
+#700
+0%
+#750
+1%
+b0 *
+#800
+0'
+0%
+b1 )
+#850
+1%
+b1 *
+#900
+1'
+0%
+b10 )
+#950
+1%
+b10 *
+b0 )
+#1000
+0'
+0%
+b11 )
+#1050
+1%
+b11 *
+b1 )
+#1100
+1'
+0%
+b10 )
+1(
+#1150
+1%
+b10 *
+b0 )
+0(
+#1200
+0'
+0%
+b11 )
+#1250
+1%
+b11 *
+b1 )
+#1300
+0%
+#1350
+1%
+b1 *
+#1400
+1'
+0%
+b10 )
+#1450
+1%
+b10 *
+b0 )
+#1500
+0'
+0%
+b11 )
+#1550
+1%
+b11 *
+b1 )
+#1600
+0%
+#1650
+1%
+b1 *
