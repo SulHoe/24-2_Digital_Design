@@ -34,7 +34,7 @@ initial begin
     reset_n = 1'b0;
 	d_in    = 1'b0;
 
-    #HCLOCK_PS;
+    #2;
     reset_n = 1'b1;
 
 	$display("\n:: TEST ::");

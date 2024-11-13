@@ -19,8 +19,8 @@ module SequenceDetector (
         if (!reset_n)   begin
             c_state <= RO;
             n_state <= RO;
-        end
-        c_state <= n_state;
+        end else
+            c_state <= n_state;
     end
 
     //Part 2: Determine next state using function
